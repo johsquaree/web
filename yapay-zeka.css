@@ -1,0 +1,72 @@
+/* Temel stil ayarları */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.welcome-section,
+.news-section {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.welcome-section h2,
+.news-section h2 {
+  color: #ffd700;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 10px;
+}
+
+footer img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  color: #ffd700;
+}
